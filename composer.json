@@ -1,0 +1,21 @@
+{
+    "name": "whb/openstack",
+    "description": "A package for openstack by php",
+    "authors": [
+        {
+            "name": "Happy SuoYa",
+            "email": "13526738157@163.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {},
+    "license": "Apache-2.0",
+    "autoload":{
+        "psr-4":{
+            "Whb\\OpenStack\\":"src/"
+        },
+        "files":[
+            "src/helpers.php"
+        ]
+    }
+}
